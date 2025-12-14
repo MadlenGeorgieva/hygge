@@ -272,3 +272,16 @@ footer {
 .footer-column:last-child {
     text-align: right;
 }
+
+
+
+
+.gallery-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.gallery-link:hover {
+    text-decoration: none;
+}
