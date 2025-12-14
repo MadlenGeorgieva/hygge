@@ -30,6 +30,7 @@ header {
 }
 
 .logo{
+    margin-left: 561px;
     width: 300px;
     height: auto;
     background: none;
@@ -279,9 +280,42 @@ footer {
 .gallery-link {
     text-decoration: none;
     color: inherit;
-    display: block;
 }
 
 .gallery-link:hover {
     text-decoration: none;
+}
+
+.gallery-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;  /* Add this */
+    flex-direction: column;  /* Add this */
+}
+
+.gallery-link:hover {
+    text-decoration: none;
+}
+
+/* Update these to remove duplicate flex properties */
+.image-left,
+.image-central,
+.image-right {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.image-left:hover,
+.image-central:hover,
+.image-right:hover {
+    transform: scale(1.02);
+}
+
+.gallery-link.image-left,
+.gallery-link.image-right {
+    flex: 0 0 280px;
+}
+
+.gallery-link.image-central {
+    flex: 0 0 360px;
 }
