@@ -17,10 +17,24 @@
             <button class="globe-btn">
                 <img src="Pictures/Globe.jpg" alt="Language">
             </button>
-            <button class="menu-btn">
+            <button class="menu-btn" onclick="toggleMenu()">
                 <img src="Pictures/Hamburger Menu.jpg" alt="Menu">
             </button>
         </div>
+
+        <!-- Hamburger Menu Overlay -->
+        <div class="menu-overlay" id="menuOverlay">
+            <button class="close-btn" onclick="toggleMenu()">×</button>
+            <nav class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">Hygge</a>
+                <a href="CreateAarhus.html">Create Aarhus</a>
+                <a href="Domen's.html">Domen's Coffee</a>
+                <a href="CreatingMemories.html">Create Moments</a>
+                <a href="contact.html">Quiz</a>
+            </nav>
+        </div>
+
     </header>
 
   <!-- Learn More Section -->
