@@ -65,6 +65,8 @@ header {
 
  /* Image Section 1  */
 .place-hero {
+    max-width: 1240px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
     position: relative;
     height: 520px;
     overflow: visible;
@@ -82,7 +84,7 @@ header {
     bottom: -50px;  /* Adjusted to be more centered */
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(61, 40, 23, 0.9);
+    background-color: #311C0F;
     padding: 25px 80px;
     border-radius: 10px;
     z-index: 10;
@@ -99,6 +101,8 @@ header {
 
 /* Left Text 1 */
 .description-section {
+     max-width: 1040px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
     background-color: #a67256;
     padding: 250px 100px 200px 100px;  /* Balanced padding */
     text-align: left;
@@ -116,6 +120,8 @@ header {
 
 /* Image Section 2 */
 .content-image-section {
+    max-width: 1240px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
     width: 100%;
     height: 650px;
     overflow: hidden;
@@ -130,8 +136,10 @@ header {
 
 /* Right Text 1 */
 .quote-section {
-    background-color: #3D2817;
-    padding: 175px 100px 150px 400px;  /* Large left padding, smaller right */
+    max-width: 1040px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
+    background-color: #311C0F;
+    padding: 175px 150px 150px 400px;  /* Large left padding, smaller right */
     text-align: right;
 }
 
