@@ -1,0 +1,225 @@
+body{
+    font-size: 40px; 
+    font-family: "Inter", sans-serif;
+    color: #DBC095;
+    /* font-family: "Madimi One", sans-serif; */
+    background-color: #311C0F;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.back-btn,
+.globe-btn,
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.back-btn img,
+.globe-btn img,
+.menu-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    background: none;
+    border: none;
+}
+
+/* Hamburger Menu Overlay */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 350px;
+    height: 100%;
+    background-color: #3D2817;
+    z-index: 1000;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-overlay.active {
+    right: 0;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: #DBC095;
+    font-size: 50px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-btn:hover {
+    color: #C97D25;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    gap: 30px;
+}
+
+.menu-content a {
+    color: #DBC095;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    transition: color 0.3s ease;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(219, 192, 149, 0.2);
+}
+
+.menu-content a:hover {
+    color: #C97D25;
+    padding-left: 10px;
+}
+
+/* Image Section 1  */
+.place-hero {
+    max-width: 1240px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
+    position: relative;
+    height: 520px;
+    overflow: visible;
+    margin-bottom: 0;
+}
+
+.place-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.place-title {
+    position: absolute;
+    bottom: -50px;  /* Adjusted to be more centered */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #311C0F;
+    padding: 25px 80px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.place-title h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    font-family: "Madimi One", sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Left Text 1 */
+.description-section {
+     max-width: 1040px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
+    background-color: #a67256;
+    padding: 250px 100px 200px 100px;  /* Balanced padding */
+    text-align: left;
+    margin-top: -50px;  /* Match the bottom value of place-title */
+}
+
+.description-section p {
+    color: #E8D4B8;
+    /* font-size: 30px; */
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 300;
+    max-width: 1200px;
+}
+
+/* Image Section 2 */
+.content-image-section {
+    max-width: 1240px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.content-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Right Text 1 */
+.quote-section {
+    max-width: 1040px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
+    background-color: #311C0F;
+    padding: 175px 150px 150px 400px;  /* Large left padding, smaller right */
+    text-align: right;
+}
+
+.quote-section p {
+    color: #E8D4B8;
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-left: auto;  /* Push to the right */
+}
+
+/* Footer */
+footer {
+    background-color: #311C0F;
+    color: #DBC095;
+    padding: 40px 150px;  /* Match the text box positioning */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #DBC095;
+}
+
+.footer-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+    color: #DBC095;
+}
+
+.footer-column a {
+    color: #DBC095;
+    text-decoration: underline;
+    display: block;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.footer-column a:hover {
+    opacity: 0.8;
+}
+
+.footer-column:last-child {
+    text-align: right;
+}

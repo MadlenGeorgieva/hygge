@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Hygge.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Madimi+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <!-- Header Section -->
+    <header>
+        <button class="back-btn" onclick="window.location.href='index.html';">
+            <img src="Pictures/Back Btn.jpg" alt="Back">
+        </button>
+        <img src="Pictures/Logo.jpg" alt="Logo" class="logo">
+        <div class="nav-right">
+            <button class="globe-btn">
+                <img src="Pictures/Globe.jpg" alt="Language">
+            </button>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <img src="Pictures/Hamburger Menu.jpg" alt="Menu">
+            </button>
+        </div>
+
+         <!-- Hamburger Menu Overlay -->
+        <div class="menu-overlay" id="menuOverlay">
+            <button class="close-btn" onclick="toggleMenu()">×</button>
+            <nav class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">Hygge</a>
+                <a href="CreateAarhus.html">Create Aarhus</a>
+                <a href="Domen's.html">Domen's Coffee</a>
+                <a href="CreatingMemories.html">Create Moments</a>
+                <a href="contact.html">Quiz</a>
+            </nav>
+        </div>
+
+    </header>
+    <!-- Image Section 1 -->
+    <section class="place-hero">
+        <img src="Pictures/Hygge1.jpg" alt="Hygge1" class="place-image">
+        <div class="place-title">
+            <h2>Hygge</h2>
+        </div>
+    </section>
+
+    <!-- Left Text 1 -->
+    <section class="description-section">
+        <p>Hygge is a Danish concept that means coziness and simple comfort, often found in small everyday moments. It’s about slowing down and enjoying things like soft lighting, warm drinks, or quiet time.</p>
+    </section>
+
+    <!-- Image Section 2 -->
+    <section class="content-image-section">
+        <img src="Pictures/Hygge2.jpg" alt="Hygge2" class="content-image">
+    </section>
+
+    <!-- Right Text 1 -->
+    <section class="quote-section">
+        <p>It’s also about feeling safe and relaxed, whether alone or with others. Hygge isn’t about luxury, but creating a genuinely comforting atmosphere</p>
+    </section>
+
+    <!-- Image Section 3 -->
+    <section class="place-hero">
+        <img src="Pictures/Creating Moments Home.jpg" alt="Hygge1" class="place-image">
+        <div class="place-title">
+            <h2>Activities</h2>
+        </div>
+    </section>
+
+    <!-- Left Text 2 -->
+    <section class="description-section">
+        <p>Creative activities like knitting, reading, candle-making, walking in nature, and cooking are simple ways to relax. Knitting and candle-making let you create with your hands, while reading and nature walks refresh the mind.</p>
+    </section>
+
+    <!-- Image Section 4 -->
+    <section class="content-image-section">
+        <img src="Pictures/Hygge3.jpg" alt="Hygge2" class="content-image">
+    </section>
+
+    <!-- Right Text 2 -->
+    <section class="quote-section">
+        <p>Cooking turns ingredients into something comforting. Together, these activities bring calm, inspiration, and small moments of joy.</p>
+    </section>
+
+    <!-- Image Section 5 -->
+    <section class="place-hero">
+        <iframe width="1240" height="520" src="https://www.youtube.com/embed/EGeoQnoyN8E?si=HJii-nuadoEkhbdd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="place-title">
+            <h2>For the home chiefs</h2>
+        </div>
+    </section>
+
+    <!-- Left Text 2 -->
+    <section class="description-section">
+        <p>In the video, you’ll also find a simple recipe perfect for home chefs who love sweet treats. It features a traditional Danish, hygge-inspired favorite — the classic cinnamon roll — a warm, cozy pastry that’s ideal for enjoying with a cup of coffee or sharing with someone you love.</p>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer-column">
+            <h4>Stay Connected:</h4>
+            <p>Follow us on social media for daily inspiration and updates!</p>
+        </div>
+        <div class="footer-column">
+            <h4>Get Matches:</h4>
+            <p>Help place people that find the right spot to when UX creativity awaits</p>
+        </div>
+    </footer>
+
+    <script src="Hygge.js"></script>
+</body>
+</html>
