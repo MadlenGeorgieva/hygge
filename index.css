@@ -39,6 +39,8 @@ header {
 
 /* Learn More Section */
 .hero {
+    max-width: 1200px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
     position: relative;
     font-family: "Madimi One", sans-serif;
     color: #D9D1C4;
@@ -89,6 +91,8 @@ header {
 
 /* Gallery */
 .gallery-section {
+    max-width: 1040px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
     background-color: #a67256;
     padding: 100px 100px 120px 100px; 
     text-align: center;
@@ -215,6 +219,8 @@ header {
     letter-spacing: 2px;
 }
 .quiz-section {
+    max-width: 1200px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
     position: relative;
     font-family: "Madimi One", sans-serif;
     color: #D9D1C4;
