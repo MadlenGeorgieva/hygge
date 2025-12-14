@@ -1,0 +1,144 @@
+body{
+    font-size: 40px; 
+    font-family: "Inter", sans-serif;
+    color: #DBC095;
+    /* font-family: "Madimi One", sans-serif; */
+    background-color: #311C0F;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.back-btn,
+.globe-btn,
+.menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.back-btn img,
+.globe-btn img,
+.menu-btn img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    background: none;
+    border: none;
+}
+
+/* Info Banner Section */
+.info-banner {
+    background-color: #311C0F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.info-item:nth-child(2) .info-icon {
+    height: 60px;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+}
+
+ /* Image Section 1  */
+.place-hero {
+    position: relative;
+    height: 520px;
+    overflow: visible;
+    margin-bottom: 0;
+}
+
+.place-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.place-title {
+    position: absolute;
+    bottom: -50px;  /* Adjusted to be more centered */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(61, 40, 23, 0.9);
+    padding: 25px 80px;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.place-title h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0;
+    font-family: "Madimi One", sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Left Text 1 */
+.description-section {
+    background-color: #a67256;
+    padding: 250px 100px 200px 100px;  /* Balanced padding */
+    text-align: left;
+    margin-top: -50px;  /* Match the bottom value of place-title */
+}
+
+.description-section p {
+    color: #E8D4B8;
+    /* font-size: 30px; */
+    line-height: 1.6;
+    margin: 0;
+    font-weight: 300;
+    max-width: 1200px;
+}
+
+/* Image Section 2 */
+.content-image-section {
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+
+.content-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Right Text 1 */
+.quote-section {
+    background-color: #3D2817;
+    padding: 175px 100px 150px 400px;  /* Large left padding, smaller right */
+    text-align: right;
+}
+
+.quote-section p {
+    color: #E8D4B8;
+    font-size: 40px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-left: auto;  /* Push to the right */
+}
