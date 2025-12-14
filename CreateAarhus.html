@@ -20,10 +20,24 @@
             <button class="globe-btn">
                 <img src="Pictures/Globe.jpg" alt="Language">
             </button>
-            <button class="menu-btn">
+            <button class="menu-btn" onclick="toggleMenu()">
                 <img src="Pictures/Hamburger Menu.jpg" alt="Menu">
             </button>
         </div>
+
+         <!-- Hamburger Menu Overlay -->
+        <div class="menu-overlay" id="menuOverlay">
+            <button class="close-btn" onclick="toggleMenu()">×</button>
+            <nav class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">Hygge</a>
+                <a href="CreateAarhus.html">Create Aarhus</a>
+                <a href="Domen's.html">Domen's Coffee</a>
+                <a href="CreatingMemories.html">Create Moments</a>
+                <a href="contact.html">Quiz</a>
+            </nav>
+        </div>
+
     </header>
     <!-- Info Banner Section -->
 <section class="info-banner">
@@ -63,5 +77,46 @@
     <p>The space is designed to help you relax, explore your creativity, and enjoy the process while having all materials and guidance provided.</p>
 </section>
 
+<!-- Image Section 3 -->
+<section class="content-image-section">
+    <img src="Pictures/Barista.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Left Text 2 -->
+<section class="description-section">
+    <p>Prices usually depend on the activity you choose — for example, candle-making packages often range from around 300 to 500 DKK, depending on how many items you create.</p>
+</section>
+
+<!-- Image Section  -->
+<section class="content-image-section">
+    <img src="Pictures/Customers.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Right Text 2 -->
+<section class="quote-section">
+    <p>Most creative sessions and workshops last about 1.5 to 2 hours, making them a perfect compact activity to fit into your day. If you want a creative moment you can <a href="https://reservation.umai.io/da/widget/candle-studio?_gl=1*1pk25ti*_ga*MzA5OTM4MjI3LjE3NjUyNzg0NzY.*_ga_D17J4DGEZP*czE3NjUyODA4NzQkbzIkZzEkdDE3NjUyODEwNDEkajMxJGwwJGgw">
+        book your place here.</a></p>
+</section>
+
+<!-- Map  -->
+<section class="content-image-section">
+    <a href="https://www.google.com/maps/place/Frederiksgade+24,+8000+Aarhus/@56.155648,10.203156,17z/data=!3m1!4b1!4m6!3m5!1s0x464c3f93dd8423d5:0xea33bdad2637ea0c!8m2!3d56.155645!4d10.2057309!16s%2Fg%2F11rg5yybf0?entry=tts&g_ep=EgoyMDI1MTIwNy4wIPu8ASoASAFQAw%3D%3D&skid=fd1d3e82-8aca-4889-be97-84119e05b795" target="_blank">
+    <img src="Pictures/CAmap.png" alt="Handmade candles" class="content-image">
+    </a>
+</section>
+
+<!-- footer section -->
+    <footer>
+        <div class="footer-column">
+            <h4>Stay Connected:</h4>
+            <p>Follow us on social media for daily inspiration and updates!</p>
+        </div>
+        <div class="footer-column">
+            <h4>Get Matches:</h4>
+            <p>Help place people that find the right spot to when UX creativity awaits</p>
+        </div>
+    </footer>
+
+<script src="CreateAarhus.js"></script>
 </body>
 </html>

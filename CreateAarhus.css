@@ -150,3 +150,107 @@ header {
     font-weight: 300;
     margin-left: auto;  /* Push to the right */
 }
+
+a{
+    color: #C97D25;
+}
+
+/* Hamburger Menu Overlay */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 350px;
+    height: 100%;
+    background-color: #3D2817;
+    z-index: 1000;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-overlay.active {
+    right: 0;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: none;
+    border: none;
+    color: #DBC095;
+    font-size: 50px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-btn:hover {
+    color: #C97D25;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    gap: 30px;
+}
+
+.menu-content a {
+    color: #DBC095;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Inter", sans-serif;
+    transition: color 0.3s ease;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(219, 192, 149, 0.2);
+}
+
+.menu-content a:hover {
+    color: #C97D25;
+    padding-left: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #311C0F;
+    color: #DBC095;
+    padding: 40px 150px;  /* Match the text box positioning */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #DBC095;
+}
+
+.footer-column p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 5px 0;
+    color: #DBC095;
+}
+
+.footer-column a {
+    color: #DBC095;
+    text-decoration: underline;
+    display: block;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.footer-column a:hover {
+    opacity: 0.8;
+}
+
+.footer-column:last-child {
+    text-align: right;
+}

@@ -239,7 +239,7 @@ header {
 footer {
     background-color: #311C0F;
     color: #DBC095;
-    padding: 40px 325px;  /* Match the text box positioning */
+    padding: 40px 150px;  /* Match the text box positioning */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
