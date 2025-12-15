@@ -331,3 +331,321 @@
         .hidden {
             display: none;
         }
+/* Mobile Responsive - Screens under 900px */
+@media screen and (max-width: 900px) {
+    
+    body {
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Header adjustments */
+    header {
+        padding: 10px 20px;
+        flex-shrink: 0;
+    }
+    
+    .logo {
+        width: 180px;
+        margin-left: 0;
+    }
+    
+    .back-btn img,
+    .globe-btn img,
+    .menu-btn img {
+        width: 32px;
+        height: 32px;
+    }
+    
+    /* Quiz Container - FIT TO SCREEN */
+    .quiz-container {
+        max-width: 95%;
+        padding: 10px;
+        margin: 10px auto;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: visible;
+    }
+    
+    .progress {
+        font-size: 12px;
+        margin-bottom: 8px;
+        text-align: right;
+    }
+    
+    /* Question Card - COMPACT */
+    .question-card {
+        padding: 12px;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        border-radius: 12px;
+    }
+    
+    .question-image {
+        height: 100px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+    }
+    
+    .question-text {
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 1.3;
+    }
+    
+    /* Options - COMPACT */
+    .options {
+        gap: 6px;
+        margin-bottom: 8px;
+    }
+    
+    .option {
+        padding: 8px 10px;
+        min-height: 40px;
+        gap: 8px;
+        border-radius: 8px;
+    }
+    
+    .radio-circle {
+        width: 18px;
+        height: 18px;
+        border-width: 2px;
+    }
+    
+    .option.selected .radio-circle::after {
+        width: 8px;
+        height: 8px;
+    }
+    
+    .option-text {
+        font-size: 11px;
+        line-height: 1.2;
+    }
+    
+    /* Next Button */
+    .next-btn {
+        padding: 10px;
+        font-size: 13px;
+        margin-top: 8px;
+        border-radius: 8px;
+    }
+    
+    /* Result Card */
+    .result-card {
+        padding: 20px 15px;
+        border-radius: 12px;
+    }
+    
+    .result-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    
+    .result-place {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    
+    .result-description {
+        font-size: 14px;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+    
+    .result-image {
+        height: 180px;
+        margin-bottom: 15px;
+    }
+    
+    .restart-btn {
+        padding: 10px 25px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+    /* Menu Overlay */
+    .menu-overlay {
+        width: 280px;
+    }
+    
+    .menu-content {
+        padding: 60px 30px;
+        gap: 20px;
+    }
+    
+    .menu-content a {
+        font-size: 22px;
+    }
+    
+    /* Footer - COMPACT */
+    footer {
+        flex-direction: column;
+        padding: 15px;
+        gap: 12px;
+        margin-top: auto;
+        flex-shrink: 0;
+    }
+    
+    .footer-column {
+        margin-bottom: 0;
+    }
+    
+    .footer-column:last-child {
+        text-align: left;
+    }
+    
+    .footer-column h4 {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    
+    .footer-column p {
+        font-size: 11px;
+        line-height: 1.3;
+    }
+}
+
+/* Extra small screens - under 600px */
+@media screen and (max-width: 600px) {
+    
+    body {
+        font-size: 20px;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+    
+    .back-btn img,
+    .globe-btn img,
+    .menu-btn img {
+        width: 28px;
+        height: 28px;
+    }
+    
+    header {
+        padding: 8px 15px;
+    }
+    
+    /* Quiz Container */
+    .quiz-container {
+        max-width: 95%;
+        padding: 8px;
+        margin: 8px auto;
+    }
+    
+    .progress {
+        font-size: 11px;
+        margin-bottom: 6px;
+    }
+    
+    /* Question Card */
+    .question-card {
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    .question-image {
+        height: 90px;
+        margin-bottom: 8px;
+    }
+    
+    .question-text {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    
+    /* Options */
+    .options {
+        gap: 5px;
+        margin-bottom: 6px;
+    }
+    
+    .option {
+        padding: 7px 9px;
+        min-height: 38px;
+        gap: 7px;
+    }
+    
+    .radio-circle {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .option.selected .radio-circle::after {
+        width: 7px;
+        height: 7px;
+    }
+    
+    .option-text {
+        font-size: 10px;
+    }
+    
+    /* Next Button */
+    .next-btn {
+        padding: 9px;
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    
+    /* Result Card */
+    .result-card {
+        padding: 18px 12px;
+    }
+    
+    .result-title {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    
+    .result-place {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    
+    .result-description {
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .result-image {
+        height: 160px;
+        margin-bottom: 12px;
+    }
+    
+    .restart-btn {
+        padding: 9px 20px;
+        font-size: 12px;
+    }
+    
+    /* Menu Overlay */
+    .menu-overlay {
+        width: 100%;
+    }
+    
+    .menu-content a {
+        font-size: 20px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 12px;
+        gap: 10px;
+    }
+    
+    .footer-column h4 {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    
+    .footer-column p {
+        font-size: 10px;
+    }
+}

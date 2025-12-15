@@ -49,7 +49,7 @@ header {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #311C0F;
-    padding: 19px 20px 10px 20px;
+    padding: 120px 20px 10px 20px;
 }
 
 .info-container {
@@ -301,4 +301,231 @@ footer {
 
 .footer-column:last-child {
     text-align: right;
+}
+/* Mobile Responsive - Screens under 900px */
+@media screen and (max-width: 900px) {
+    
+    /* Header adjustments */
+    header {
+        padding: 10px 20px;
+    }
+    
+    .logo {
+        width: 200px;
+        margin-left: 0;
+    }
+    
+    .back-btn img,
+    .globe-btn img,
+    .menu-btn img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    /* Info Banner - KEEP IN ONE LINE */
+    .info-banner {
+        padding: 65px 5px 0px 5px;
+        overflow-x: auto; /* Allow horizontal scroll if needed */
+    }
+    
+    .info-container {
+        gap: 40px;
+        flex-wrap: nowrap; /* Keep items in one line */
+        justify-content: center;
+        min-width: fit-content; /* Ensure all items are visible */
+    }
+    
+    .info-item {
+        width: auto;
+        font-size: 18px;
+        gap: 10px;
+        flex-shrink: 0; /* Prevent items from shrinking */
+    }
+    
+    .info-icon {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .info-item:nth-child(2) .info-icon {
+        height: 45px;
+        width: auto;
+    }
+    
+    /* Place Hero Section */
+    .place-hero {
+        height: 350px;
+        max-width: 100%;
+    }
+    
+    .place-title {
+        width: 280px;
+        height: 120px;
+        bottom: -40px;
+    }
+    
+    .place-title h2 {
+        font-size: 36px;
+    }
+    
+    /* Description Sections */
+    .description-section-with-square {
+        padding: 100px 30px 30px 30px;
+        max-width: 100%;
+        margin-top: -40px;
+    }
+    
+    .description-section {
+        padding: 30px;
+        max-width: 100%;
+    }
+    
+    .description-section p {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    
+    /* Content Image Section */
+    .content-image-section {
+        height: 400px;
+        max-width: 100%;
+    }
+    
+    /* Quote Section - KEEP RIGHT ALIGNED */
+    .quote-section {
+        padding: 30px 50px 30px 30px;
+        text-align: right; /* Keep text right-aligned */
+        max-width: 100%;
+    }
+    
+    .quote-section p {
+        font-size: 24px;
+        margin-left: auto; /* Keep pushing to the right */
+    }
+    
+    /* Menu Overlay */
+    .menu-overlay {
+        width: 280px;
+    }
+    
+    .menu-content {
+        padding: 60px 30px;
+        gap: 20px;
+    }
+    
+    .menu-content a {
+        font-size: 24px;
+    }
+    
+    /* Footer */
+    footer {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 30px;
+    }
+    
+    .footer-column:last-child {
+        text-align: left;
+    }
+    
+    .footer-column h4 {
+        font-size: 18px;
+    }
+    
+    .footer-column p {
+        font-size: 14px;
+    }
+}
+
+/* Extra small screens - under 600px */
+@media screen and (max-width: 600px) {
+    
+    body {
+        font-size: 22px;
+    }
+    
+    .logo {
+        width: 150px;
+    }
+    
+    .back-btn img,
+    .globe-btn img,
+    .menu-btn img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    /* Info Container - STAY IN ONE LINE */
+    .info-banner {
+        padding: 65px 5px 0px 5px;
+    }
+    
+    .info-container {
+        gap: 25px;
+        flex-wrap: nowrap; /* Keep in one line */
+    }
+    
+    .info-item {
+        font-size: 16px;
+        gap: 8px;
+    }
+    
+    .info-icon {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .info-item:nth-child(2) .info-icon {
+        height: 40px;
+    }
+    
+    .place-hero {
+        height: 250px;
+    }
+    
+    .place-title {
+        width: 220px;
+        height: 100px;
+        bottom: -30px;
+    }
+    
+    .place-title h2 {
+        font-size: 28px;
+    }
+    
+    .description-section-with-square {
+        padding: 80px 20px 20px 20px;
+        margin-top: -30px;
+    }
+    
+    .description-section {
+        padding: 20px;
+    }
+    
+    .description-section p {
+        font-size: 20px;
+    }
+    
+    .content-image-section {
+        height: 300px;
+    }
+    
+    /* Quote Section - KEEP RIGHT ALIGNED */
+    .quote-section {
+        padding: 20px 30px 20px 20px;
+        text-align: right; /* Keep right-aligned */
+    }
+    
+    .quote-section p {
+        font-size: 20px;
+        margin-left: auto; /* Keep pushing to the right */
+    }
+    
+    .menu-overlay {
+        width: 100%;
+    }
+    
+    .menu-content a {
+        font-size: 22px;
+    }
 }
