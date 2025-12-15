@@ -1,7 +1,7 @@
 body{
     font-size: 28px; 
     font-family: "Inter", sans-serif;
-    color: #DBC095;
+    color: #905837;
     /* font-family: "Madimi One", sans-serif; */
     background-color: #311C0F;
 }
@@ -93,7 +93,7 @@ header {
 .gallery-section {
     max-width: 1040px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
-    background-color: #a67256;
+    background-color: #905837;
     padding: 75px 100px 120px 100px; 
     text-align: center;
 }

@@ -241,7 +241,6 @@ footer {
 .footer-column:last-child {
     text-align: right;
 }
-
 @media (max-width: 900px) {
     body {
         font-size: 22px;
