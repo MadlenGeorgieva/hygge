@@ -241,3 +241,155 @@ footer {
 .footer-column:last-child {
     text-align: right;
 }
+
+@media (max-width: 900px) {
+    body {
+        font-size: 22px;
+    }
+
+    .logo {
+        width: 220px;
+        margin-left: 30px;
+    }
+
+    .back-btn img,
+    .globe-btn img,
+    .menu-btn img {
+        width: 34px;
+        height: 34px;
+    }
+
+    .place-hero {
+        height: 420px;
+    }
+
+    .place-title {
+        width: 300px;
+        height: 130px;
+        bottom: -45px;
+    }
+
+    .place-title h2 {
+        font-size: 38px;
+    }
+
+    .description-section {
+        padding: 120px 50px 80px 50px;
+    }
+
+    .content-image-section {
+        height: 500px;
+    }
+
+    .quote-section {
+        padding: 80px 120px 80px 180px;
+    }
+
+    footer {
+        padding: 40px 70px;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 18px;
+        padding-top: 80px;
+    }
+
+    /* Header */
+    header {
+        padding: 8px 12px;
+    }
+
+    .logo {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+    .back-btn img,
+    .globe-btn img,
+    .menu-btn img {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* HERO SECTIONS */
+    .place-hero {
+        max-width: 100%;
+        height: 260px;
+        margin: 0;
+    }
+
+    .place-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .place-title {
+        width: 220px;
+        height: 95px;
+        bottom: -30px;
+        border-radius: 12px;
+    }
+
+    .place-title h2 {
+        font-size: 28px;
+    }
+
+    /* TEXT CARDS */
+    .description-section,
+    .quote-section {
+        max-width: 100%;
+        margin: 0;
+        padding: 70px 22px 50px 22px;
+        text-align: left;
+    }
+
+    .quote-section {
+        text-align: right;
+        padding: 50px 22px;
+    }
+
+    .description-section p,
+    .quote-section p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* IMAGE SECTIONS */
+    .content-image-section {
+        max-width: 100%;
+        height: 320px;
+    }
+
+    .content-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* VIDEO RESPONSIVE */
+    .place-hero iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* MENU */
+    .menu-overlay {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        padding: 30px 22px;
+        gap: 30px;
+    }
+
+    .footer-column:last-child {
+        text-align: left;
+    }
+}

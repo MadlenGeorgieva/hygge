@@ -396,3 +396,284 @@ footer {
 .menu-backdrop.active {
     display: block;
 }
+
+@media (max-width: 900px) {
+
+    body {
+        font-size: 22px;
+    }
+
+    /* HEADER */
+    .logo {
+        margin-left: 0;
+        width: 220px;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    /* HERO */
+    .hero {
+        height: 420px;
+    }
+
+    .hero-text {
+        width: 90%;
+        margin: 120px auto 0;
+        padding: 30px 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 44px;
+    }
+
+    /* GALLERY */
+    .gallery-section {
+        padding: 60px 40px 80px;
+    }
+
+    .gallery {
+        gap: 25px;
+    }
+
+    .gallery-images {
+        gap: 12px;
+    }
+
+    .gallery-link.image-left,
+    .gallery-link.image-right {
+        flex: 0 0 220px;
+    }
+
+    .gallery-link.image-central {
+        flex: 0 0 280px;
+    }
+
+    .image-left img,
+    .image-right img {
+        height: 340px;
+    }
+
+    .image-central img {
+        height: 400px;
+    }
+
+    /* QUIZ */
+    .quiz-section {
+        height: 420px;
+    }
+
+    .quiz-text {
+        width: 90%;
+        margin: 120px auto 0;
+        padding: 30px 40px;
+    }
+
+    .quiz-text h1 {
+        font-size: 44px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 40px 70px;
+        gap: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    /* HEADER */
+    header {
+        padding: 10px 14px;
+    }
+
+    .logo {
+        width: 150px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .nav-right img {
+        width: 28px;
+        height: 28px;
+    }
+
+    /* HERO */
+    .hero {
+        height: 260px;
+        padding: 12px;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin: 0;
+        padding: 18px 16px;
+        border-radius: 8px;
+    }
+
+    .hero-text h1 {
+        font-size: 22px;
+        line-height: 1.3;
+        letter-spacing: 0.5px;
+        margin-bottom: 16px;
+    }
+
+    .active-button {
+        width: 120px;
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    /* GALLERY */
+    .gallery-section {
+        padding: 40px 16px 60px;
+    }
+
+    .gallery-section h2 {
+        font-size: 20px;
+        line-height: 1.4;
+        margin-bottom: 24px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .gallery-images {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+
+    .gallery-link {
+        width: 100%;
+    }
+
+    .image-left img,
+    .image-central img,
+    .image-right img {
+        width: 100%;
+        height: 220px;
+        border-radius: 10px;
+    }
+
+    .overlay h3 {
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 8px;
+    }
+
+    /* QUIZ */
+    .quiz-section {
+        height: 260px;
+        padding: 12px;
+    }
+
+    .quiz-text {
+        width: 100%;
+        margin: 0;
+        padding: 18px 16px;
+        border-radius: 8px;
+    }
+
+    .quiz-text h1 {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 0.5px;
+        margin-bottom: 16px;
+    }
+
+    /* MENU */
+    .menu-overlay {
+        width: 100%;
+    }
+
+    .menu-content a {
+        font-size: 22px;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        padding: 24px 16px;
+        gap: 24px;
+    }
+
+    .footer-column h4 {
+        font-size: 18px;
+    }
+
+    .footer-column p {
+        font-size: 14px;
+    }
+
+    .footer-column:last-child {
+        text-align: left;
+    }
+
+    /* === GALLERY SINGLE ROW (3 ITEMS) === */
+
+    .gallery {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .gallery-images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        width: 100%;
+        align-items: start;
+    }
+
+    /* Kill all desktop flex sizing */
+    .gallery-link,
+    .gallery-link.image-left,
+    .gallery-link.image-central,
+    .gallery-link.image-right {
+        width: 100%;
+        flex: none !important;
+    }
+
+    /* Smaller, consistent images */
+    .image-left img,
+    .image-central img,
+    .image-right img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    /* Text below images */
+    .overlay {
+        padding-top: 6px;
+        text-align: center;
+    }
+
+    .overlay h3 {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    /* Emphasize center card slightly */
+    .gallery-link.image-central img {
+        height: 170px;
+    }
+
+    /* Remove arrows on mobile */
+    .arrow-left,
+    .arrow-right {
+        display: none !important;
+    }
+
+    
+}
+

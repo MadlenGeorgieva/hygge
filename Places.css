@@ -324,7 +324,7 @@ footer {
     
     /* Info Banner - KEEP IN ONE LINE */
     .info-banner {
-        padding: 65px 5px 0px 5px;
+        padding: 70px 5px 0px 5px;
         overflow-x: auto; /* Allow horizontal scroll if needed */
     }
     
@@ -457,7 +457,7 @@ footer {
     
     /* Info Container - STAY IN ONE LINE */
     .info-banner {
-        padding: 65px 5px 0px 5px;
+        padding: 70px 5px 0px 5px;
     }
     
     .info-container {
