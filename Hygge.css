@@ -381,14 +381,23 @@ footer {
         width: 100%;
     }
 
-    /* FOOTER */
+  /* Footer */
     footer {
-        flex-direction: column;
-        padding: 30px 22px;
-        gap: 30px;
+        padding: 20px 15px;
+        gap: 15px;
     }
-
-    .footer-column:last-child {
-        text-align: left;
+    
+    .footer-column {
+        margin-bottom: 10px;
+    }
+    
+    .footer-column h4 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .footer-column p {
+        font-size: 12px;
+        line-height: 1.3;
     }
 }

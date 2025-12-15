@@ -646,23 +646,24 @@ footer {
         font-size: 22px;
     }
 
-    /* FOOTER */
+    /* Footer */
     footer {
-        flex-direction: column;
-        padding: 24px 16px;
-        gap: 24px;
+        padding: 20px 15px;
+        gap: 15px;
     }
-
+    
+    .footer-column {
+        margin-bottom: 10px;
+    }
+    
     .footer-column h4 {
-        font-size: 18px;
-    }
-
-    .footer-column p {
         font-size: 14px;
+        margin-bottom: 6px;
     }
-
-    .footer-column:last-child {
-        text-align: left;
+    
+    .footer-column p {
+        font-size: 12px;
+        line-height: 1.3;
     }
 }
 
