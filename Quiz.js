@@ -65,8 +65,8 @@
                 image: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=500"
             },
             hygge: {
-                name: "Hygge Spots",
-                description: "Trendy, aesthetic locations around Aarhus that embody the Danish concept of hygge. Perfect for exploring, photography, and creating memorable moments.",
+                name: "Creating Moments",
+                description: "Because you enjoy creating things, we recommend Creating Memories for its cozy workshops in knitting, macramé, and other hands-on crafts.",
                 image: "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=500"
             }
         };
@@ -146,8 +146,8 @@
             
             document.getElementById('questionCard').classList.add('hidden');
             document.getElementById('resultCard').classList.remove('hidden');
-            document.getElementById('resultPlace').textContent = place.name;
             document.getElementById('resultImage').src = place.image;
+            document.getElementById('resultPlace').textContent = place.name;
             document.getElementById('resultDescription').textContent = place.description;
             document.querySelector('.progress').classList.add('hidden');
         }

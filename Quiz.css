@@ -224,18 +224,18 @@
         }
 
         .next-btn:hover {
-            background-color: #B36D1F;
+            background-color: #C97D25;
         }
 
         .next-btn:disabled {
-            background-color: #5A4539;
+            background-color: #311C0F;
             cursor: not-allowed;
             opacity: 0.6;
         }
 
         /* Result Card */
         .result-card {
-            background-color: #A67256;
+            background-color: #905837;
             border-radius: 15px;
             padding: 40px 30px;
             text-align: center;
@@ -243,14 +243,14 @@
 
         .result-title {
             font-family: "Madimi One", sans-serif;
-            color: white;
+            color: #DBC095;
             font-size: 32px;
             margin-bottom: 15px;
         }
 
         .result-place {
-            color: #C97D25;
-            font-size: 36px;
+            color: #FFFBF2;
+            font-size: 42px;
             font-weight: 700;
             margin-bottom: 25px;
             font-family: "Madimi One", sans-serif;
@@ -273,7 +273,7 @@
 
         .restart-btn {
             background-color: #C97D25;
-            color: white;
+            color: #E8D4B8;
             border: none;
             border-radius: 10px;
             padding: 15px 40px;
