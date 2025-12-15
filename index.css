@@ -94,7 +94,7 @@ header {
     max-width: 1040px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #a67256;
-    padding: 100px 100px 120px 100px; 
+    padding: 75px 100px 120px 100px; 
     text-align: center;
 }
 
@@ -102,7 +102,7 @@ header {
     color: white;
     font-size: 40px;
     font-weight: 400;
-    margin-bottom: 40px;  
+    margin-bottom: 50px;  
     font-family: Arial, sans-serif;
 }
 
