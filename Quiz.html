@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hygge Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <button class="back-btn" onclick="window.location.href='index.html';">
+            <img src="Pictures/Back Btn.jpg" alt="Back">
+        </button>
+        <img src="Pictures/Logo.jpg" alt="Logo" class="logo">
+        <div class="nav-right">
+            <button class="globe-btn">
+                <img src="Pictures/Globe.jpg" alt="Language">
+            </button>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <img src="Pictures/Hamburger Menu.jpg" alt="Menu">
+            </button>
+        </div>
+
+         <!-- Hamburger Menu Overlay -->
+        <div class="menu-overlay" id="menuOverlay">
+            <button class="close-btn" onclick="toggleMenu()">×</button>
+            <nav class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="Hygge.html">Hygge</a>
+                <a href="CreateAarhus.html">Create Aarhus</a>
+                <a href="Domen's.html">Domen's Coffee</a>
+                <a href="CreatingMemories.html">Create Moments</a>
+                <a href="contact.html">Quiz</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Quiz Container -->
+    <div class="quiz-container">
+        <div class="progress" id="progress">1/5</div>
+        
+        <div class="question-card" id="questionCard">
+            <img id="questionImage" class="question-image" src="" alt="Question image">
+            <h2 class="question-text" id="questionText"></h2>
+            
+            <div class="options" id="optionsContainer"></div>
+            
+            <button class="next-btn" id="nextBtn" disabled>Next</button>
+        </div>
+
+        <!-- Result Card (hidden initially) -->
+        <div class="result-card hidden" id="resultCard">
+            <h2 class="result-title">Your Perfect Place is...</h2>
+            <div class="result-place" id="resultPlace"></div>
+            <img id="resultImage" class="result-image" src="" alt="Result place">
+            <p class="result-description" id="resultDescription"></p>
+            <button class="restart-btn" onclick="restartQuiz()">Take Quiz Again</button>
+        </div>
+    </div>
+
+     <!-- footer section -->
+    <footer>
+        <div class="footer-column">
+            <h4>Stay Connected:</h4>
+            <p>Follow us on social media for daily inspiration and updates!</p>
+        </div>
+        <div class="footer-column">
+            <h4>Get Matches:</h4>
+            <p>Help place people that find the right spot to when UX creativity awaits</p>
+        </div>
+    </footer>
+
+    <script src="Quiz.js"></script>
+</body>
+</html>

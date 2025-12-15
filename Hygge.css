@@ -1,4 +1,5 @@
 body{
+    padding-top: 100px;  /* Adjust this value based on your header height */
     font-size: 28px; 
     font-family: "Inter", sans-serif;
     color: #DBC095;
@@ -8,10 +9,16 @@ body{
 
 /* Header Section */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: #311C0F;
+    z-index: 100;
 }
 
 .back-btn,
