@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Add padding to body to prevent content from hiding under fixed header */
 body {
     /* padding-top: 100px;  Adjust this value based on your header height */
