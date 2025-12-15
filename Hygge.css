@@ -149,7 +149,7 @@ header {
      max-width: 800px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #a67256;
-    padding: 250px 100px 200px 100px;  /* Balanced padding */
+    padding: 130px 100px 100px 100px;  /* Balanced padding */
     text-align: left;
     margin-top: -50px;  /* Match the bottom value of place-title */
 }
@@ -184,7 +184,7 @@ header {
     max-width: 800px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #311C0F;
-    padding: 175px 320px 150px 400px;  /* Large left padding, smaller right */
+    padding: 100px 320px 100px 400px;  /* Large left padding, smaller right */
     text-align: right;
 }
 

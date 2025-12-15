@@ -68,8 +68,8 @@ header {
 }
 
 .info-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
  /* Image Section 1  */
@@ -118,14 +118,23 @@ header {
     text-align: center;      /* Center multi-line text */
 }
 
+/* Left Text With Square */
+.description-section-with-square {
+    max-width: 800px;  /* Add this */
+    margin: 0 auto;  /* Add this to center */
+    background-color: #a67256;
+    padding: 120px 100px 50px 100px;  /* Balanced padding */
+    text-align: left;
+    margin-top: -50px;  /* Match the bottom value of place-title */
+}
+
 /* Left Text 1 */
 .description-section {
     max-width: 800px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #a67256;
-    padding: 250px 100px 200px 100px;  /* Balanced padding */
+    padding: 50px 100px 50px 100px;  /* Balanced padding */
     text-align: left;
-    margin-top: -50px;  /* Match the bottom value of place-title */
 }
 
 .description-section p {
@@ -158,7 +167,7 @@ header {
     max-width: 800px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #311C0F;
-    padding: 175px 320px 150px 400px;  /* Large left padding, smaller right */
+    padding: 50px 320px 50px 400px;  /* Large left padding, smaller right */
     text-align: right;
 }
 
