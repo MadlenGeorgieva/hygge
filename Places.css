@@ -1,6 +1,6 @@
 /* Add padding to body to prevent content from hiding under fixed header */
 body {
-    padding-top: 100px;  /* Adjust this value based on your header height */
+    /* padding-top: 100px;  Adjust this value based on your header height */
     font-size: 28px; 
     font-family: "Inter", sans-serif;
     color: #DBC095;
@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px 10px 10px;
+    padding: 10px;
     background-color: #311C0F;
     z-index: 100;
 }
@@ -36,7 +36,8 @@ header {
     height: 40px;
 }
 
-.logo{
+.logo {
+    margin-left: 70px;
     width: 300px;
     height: auto;
     background: none;
@@ -45,13 +46,17 @@ header {
 
 /* Info Banner Section */
 .info-banner {
-    max-width: 1200px;  /* Add this */
-    margin: 0 auto;  /* Add this to center */
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: #311C0F;
+    padding: 19px 20px 10px 20px;
+}
+
+.info-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 5px 100px;
+    gap: 80px; /* Space between items */
 }
 
 .info-item {
@@ -61,6 +66,21 @@ header {
     color: white;
     font-size: 24px;
     font-weight: 500;
+}
+
+.info-item:nth-child(2) {
+    /* This is the location icon in the center */
+    justify-content: center;
+}
+
+.info-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.info-item:nth-child(2) .info-icon {
+    height: 60px;
+    width: auto;
 }
 
 .info-item:nth-child(2) .info-icon {

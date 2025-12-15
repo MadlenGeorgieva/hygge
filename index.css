@@ -1,5 +1,5 @@
 body{
-    font-size: 30px; 
+    font-size: 28px; 
     font-family: "Inter", sans-serif;
     color: #DBC095;
     /* font-family: "Madimi One", sans-serif; */
@@ -30,7 +30,7 @@ header {
 }
 
 .logo{
-    margin-left: 561px;
+    margin-left: 600px;
     width: 300px;
     height: auto;
     background: none;
