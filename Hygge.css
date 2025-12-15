@@ -1,5 +1,5 @@
 body{
-    font-size: 40px; 
+    font-size: 28px; 
     font-family: "Inter", sans-serif;
     color: #DBC095;
     /* font-family: "Madimi One", sans-serif; */
@@ -93,7 +93,7 @@ header {
 
 /* Image Section 1  */
 .place-hero {
-    max-width: 1240px;  /* Add this */
+    max-width: 1000px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     position: relative;
     height: 520px;
@@ -139,7 +139,7 @@ header {
 
 /* Left Text 1 */
 .description-section {
-     max-width: 1040px;  /* Add this */
+     max-width: 800px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #a67256;
     padding: 250px 100px 200px 100px;  /* Balanced padding */
@@ -158,7 +158,7 @@ header {
 
 /* Image Section 2 */
 .content-image-section {
-    max-width: 1240px;  /* Add this */
+    max-width: 1000px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     width: 100%;
     height: 650px;
@@ -174,16 +174,16 @@ header {
 
 /* Right Text 1 */
 .quote-section {
-    max-width: 1040px;  /* Add this */
+    max-width: 800px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #311C0F;
-    padding: 175px 150px 150px 400px;  /* Large left padding, smaller right */
+    padding: 175px 320px 150px 400px;  /* Large left padding, smaller right */
     text-align: right;
 }
 
 .quote-section p {
     color: #E8D4B8;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 1.6;
     font-weight: 300;
     margin-left: auto;  /* Push to the right */
