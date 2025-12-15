@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Places.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Header Section -->
+    <header>
+        <button class="back-btn" onclick="window.location.href='index.html';">
+            <img src="Pictures/Back Btn.jpg" alt="Back">
+        </button>
+        <img src="Pictures/Logo.jpg" alt="Logo" class="logo">
+        <div class="nav-right">
+            <button class="globe-btn">
+                <img src="Pictures/Globe.jpg" alt="Language">
+            </button>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <img src="Pictures/Hamburger Menu.jpg" alt="Menu">
+            </button>
+        </div>
+
+         <!-- Hamburger Menu Overlay -->
+        <div class="menu-overlay" id="menuOverlay">
+            <button class="close-btn" onclick="toggleMenu()">×</button>
+            <nav class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="Hygge.html">Hygge</a>
+                <a href="CreateAarhus.html">Create Aarhus</a>
+                <a href="Domen's.html">Domen's Coffee</a>
+                <a href="CreatingMemories.html">Create Moments</a>
+                <a href="contact.html">Quiz</a>
+            </nav>
+        </div>
+
+    </header>
+    <!-- Info Banner Section -->
+<section class="info-banner">
+    <div class="info-item">
+        <img src="Pictures/Clock.png" alt="Clock" class="info-icon">
+        <span>1-2 hours</span>
+    </div>
+    <div class="info-item">
+        <img src="Pictures/loc.png" alt="Location" class="info-icon">
+    </div>
+    <div class="info-item">
+        <img src="Pictures/Cost.png" alt="Price" class="info-icon">
+        <span>48.8 - 148 DKK</span>
+    </div>
+</section>
+
+<!-- Image Section 1 -->
+<section class="place-hero">
+    <img src="Pictures/CMoments1.jpg" alt="Create Aarhus Workshop" class="place-image">
+    <div class="place-title">
+        <h2>Creating Moments</h2>
+    </div>
+</section>
+
+<!-- Left Text 1 -->
+<section class="description-section">
+    <p>Creating Memories offers a cozy, inspiring atmosphere where you can create small project or join hands-on workshops.</p>
+</section>
+
+<!-- Image Section 2 -->
+<section class="content-image-section">
+    <img src="Pictures/CMoments2.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Right Text 1 -->
+<section class="quote-section">
+    <p>They offer creative remedies, educational workshops, cozy settings and tasty refreshments, where you and your loved ones can find peace in creativity together</p>
+</section>
+
+<!-- Image Section 3 -->
+<section class="content-image-section">
+    <img src="Pictures/CMoments3.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Left Text 2 -->
+<section class="description-section">
+    <p>The prices range from 48.80 to 148 DKK including all materials. You only pay for the project you've chosen, as well as any additional purchases in the tea and coffee bar.</p>
+</section>
+
+<!-- Image Section  -->
+<section class="content-image-section">
+    <img src="Pictures/CMoments4.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Right Text 2 -->
+<section class="quote-section">
+    <p>If you want a creative moment at Creating Moments, you can <a href="https://creatingmoments.understory.io/experience/7ca0815bdbcaffe2d94f2846f4b55e33">
+        book a table here</a>. You are also always welcome to take a seat in our lounge area without a reservation.</p>
+</section>
+
+<!-- Map  -->
+<section class="content-image-section">
+    <a href="https://www.google.com/maps/place/S%C3%B8ndergade+22,+8000+Aarhus,+%D0%94%D0%B0%D0%BD%D0%B8%D1%8F/@56.1550014,10.1967293,15z/data=!4m6!3m5!1s0x464c3f91650fecc7:0xe865ee42dd1ded38!8m2!3d56.1549984!4d10.207029!16s%2Fg%2F11b8v65k7f?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+    <img src="Pictures/CMmap.png" alt="Handmade candles" class="content-image">
+    </a>
+</section>
+
+<!-- footer section -->
+    <footer>
+        <div class="footer-column">
+            <h4>Stay Connected:</h4>
+            <p>Follow us on social media for daily inspiration and updates!</p>
+        </div>
+        <div class="footer-column">
+            <h4>Get Matches:</h4>
+            <p>Help place people that find the right spot to when UX creativity awaits</p>
+        </div>
+    </footer>
+
+<script src="CreateAarhus.js"></script>
+</body>
+</html>

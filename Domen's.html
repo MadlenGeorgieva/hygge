@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Places.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Header Section -->
+    <header>
+        <button class="back-btn" onclick="window.location.href='index.html';">
+            <img src="Pictures/Back Btn.jpg" alt="Back">
+        </button>
+        <img src="Pictures/Logo.jpg" alt="Logo" class="logo">
+        <div class="nav-right">
+            <button class="globe-btn">
+                <img src="Pictures/Globe.jpg" alt="Language">
+            </button>
+            <button class="menu-btn" onclick="toggleMenu()">
+                <img src="Pictures/Hamburger Menu.jpg" alt="Menu">
+            </button>
+        </div>
+
+         <!-- Hamburger Menu Overlay -->
+        <div class="menu-overlay" id="menuOverlay">
+            <button class="close-btn" onclick="toggleMenu()">×</button>
+            <nav class="menu-content">
+                <a href="index.html">Home</a>
+                <a href="Hygge.html">Hygge</a>
+                <a href="CreateAarhus.html">Create Aarhus</a>
+                <a href="Domen's.html">Domen's Coffee</a>
+                <a href="CreatingMemories.html">Create Moments</a>
+                <a href="contact.html">Quiz</a>
+            </nav>
+        </div>
+
+    </header>
+    <!-- Info Banner Section -->
+<section class="info-banner">
+    <div class="info-item">
+        <img src="Pictures/Clock.png" alt="Clock" class="info-icon">
+        <span>1-2 hours</span>
+    </div>
+    <div class="info-item">
+        <img src="Pictures/loc.png" alt="Location" class="info-icon">
+    </div>
+    <div class="info-item">
+        <img src="Pictures/Cost.png" alt="Price" class="info-icon">
+        <span>30.0 - 40.0 DKK</span>
+    </div>
+</section>
+
+<!-- Image Section 1 -->
+<section class="place-hero">
+    <img src="Pictures/Domen1.jpg" alt="Create Aarhus Workshop" class="place-image">
+    <div class="place-title">
+        <h2>Domen's Coffee</h2>
+    </div>
+</section>
+
+<!-- Left Text 1 -->
+<section class="description-section">
+    <p>Domen Coffee in Aarhus is a cozy, community-focused café located right by the harbor in a unique wooden dome. </p>
+</section>
+
+<!-- Image Section 2 -->
+<section class="content-image-section">
+    <img src="Pictures/Domen2.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Right Text 1 -->
+<section class="quote-section">
+    <p>Visitors often come to enjoy a warm drink, study, meet friends, or simply take in the view of the water while sitting inside the dome’s calming space.</p>
+</section>
+
+<!-- Image Section 3 -->
+<section class="content-image-section">
+    <img src="Pictures/Domen3.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Left Text 2 -->
+<section class="description-section">
+    <p>It’s known for its relaxed atmosphere, sustainable concept, and beautiful natural light. Prices are quite affordable, with most coffees costing around 30–40 DKK.</p>
+</section>
+
+<!-- Image Section  -->
+<section class="content-image-section">
+    <img src="Pictures/ME.jpg" alt="Handmade candles" class="content-image">
+</section>
+
+<!-- Right Text 2 -->
+<section class="quote-section">
+    <p>Events hosted at Domen — such as talks, workshops, or small concerts — usually last 1 to 2 hours.</p>
+</section>
+
+<!-- Map  -->
+<section class="content-image-section">
+    <a href="https://www.google.com/maps/place/Domen+Aarhus/@56.1579655,10.213755,17z/data=!3m1!4b1!4m6!3m5!1s0x464c3fd5f8d07f37:0x82fe06162e4a6201!8m2!3d56.1579626!4d10.2186259!16s%2Fg%2F11hzymd8qf?entry=tts&g_ep=EgoyMDI1MTIwNy4wIPu8ASoASAFQAw%3D%3D&skid=a1626b2d-8731-48b1-bc36-5e2dcce976fe" target="_blank">
+    <img src="Pictures/Dmap.png" alt="Handmade candles" class="content-image">
+    </a>
+</section>
+
+<!-- footer section -->
+    <footer>
+        <div class="footer-column">
+            <h4>Stay Connected:</h4>
+            <p>Follow us on social media for daily inspiration and updates!</p>
+        </div>
+        <div class="footer-column">
+            <h4>Get Matches:</h4>
+            <p>Help place people that find the right spot to when UX creativity awaits</p>
+        </div>
+    </footer>
+
+<script src="CreateAarhus.js"></script>
+</body>
+</html>
