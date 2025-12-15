@@ -109,11 +109,20 @@ header {
 
 .place-title {
     position: absolute;
-    bottom: -50px;  /* Adjusted to be more centered */
+    bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #311C0F;
-    padding: 25px 80px;
+    
+    /* Set specific size */
+    width:350px;          /* Your desired width */
+    height: 150px;         /* Your desired height */
+    
+    /* Center text inside */
+    display: flex;
+    justify-content: center;  /* Horizontal center */
+    align-items: center;      /* Vertical center */
+    
     border-radius: 10px;
     z-index: 10;
 }
@@ -125,6 +134,7 @@ header {
     margin: 0;
     font-family: "Madimi One", sans-serif;
     letter-spacing: 1px;
+    text-align: center;      /* Center multi-line text */
 }
 
 /* Left Text 1 */
