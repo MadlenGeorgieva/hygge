@@ -28,6 +28,10 @@
             padding: 10px;
         }
 
+        .globe-btn{
+            text-decoration: none; /* Removes underline */
+        }
+
         .back-btn,
         .globe-btn,
         .menu-btn {

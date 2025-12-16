@@ -2,52 +2,52 @@
         const questions = [
             {
                 image: "Pictures/Quiz1.jpg",
-                question: "How do you prefer to spend your free time?",
+                question: "Hvordan foretrækker du at bruge din fritid?",
                 options: [
-                    { text: "Reading a book or relaxing with a warm drink.", place: "domens" },
-                    { text: "Drawing, sketching, or designing.", place: "create" },
-                    { text: "Crafting — knitting, macramé, DIY projects.", place: "create" },
-                    { text: "Just walking around or exploring randomly.", place: "hygge" }
+                    { text: "At læse en bog eller slappe af med en varm drik.", place: "domens" },
+                    { text: "Tegning, skitsering eller design.", place: "create" },
+                    { text: "Håndværk — strikning, makramé, gør-det-selv-projekter.", place: "create" },
+                    { text: "Bare gå rundt eller udforske tilfældigt.", place: "hygge" }
                 ]
             },
             {
                 image: "Pictures/Quiz2.jpg",
-                question: "What kind of atmosphere appeals to you most?",
+                question: "Hvilken slags atmosfære tiltaler dig mest?",
                 options: [
-                    { text: "Quiet and cozy with soft lighting.", place: "domens" },
-                    { text: "Creative and colorful with hands-on activities.", place: "create" },
-                    { text: "Modern and Instagram-worthy.", place: "hygge" },
-                    { text: "Warm and welcoming with friendly vibes.", place: "domens" }
+                    { text: "Stille og hyggelig med blød belysning.", place: "domens" },
+                    { text: "Kreativ og farverig med håndværk.", place: "create" },
+                    { text: "Moderne og Instagram-værdig.", place: "hygge" },
+                    { text: "Varm og modtagelig med venlige følelser.", place: "domens" }
                 ]
             },
             {
                 image: "Pictures/Quiz3.jpg",
-                question: "How do you like to socialize?",
+                question: "Hvordan foretrækker du at socialisere?",
                 options: [
-                    { text: "One-on-one deep conversations.", place: "domens" },
-                    { text: "Group activities where we make something together.", place: "create" },
-                    { text: "Casual hangouts in a trendy spot.", place: "hygge" },
-                    { text: "I prefer solo time to recharge.", place: "domens" }
+                    { text: "En-til-en dybe samtaler.", place: "domens" },
+                    { text: "Gruppeaktiviteter hvor vi laver noget sammen.", place: "create" },
+                    { text: "Kasual sammenkomst i et trendy sted.", place: "hygge" },
+                    { text: "Jeg foretrækker alene tid for at genoplive mine kræfter.", place: "domens" }
                 ]
             },
             {
                 image: "Pictures/Quiz4.jpg",
-                question: "What's your ideal way to spend a rainy afternoon?",
+                question: "Hvordan foretrækker du at bruge en regnfuld eftermiddag?",
                 options: [
-                    { text: "Sipping coffee and journaling.", place: "domens" },
-                    { text: "Painting or working on a craft project.", place: "create" },
-                    { text: "Exploring new places in the city.", place: "hygge" },
+                    { text: "At drikke kaffe og skrive i en dagbog.", place: "domens" },
+                    { text: "Tegne eller lave et håndværksprojekt.", place: "create" },
+                    { text: "Udforske nye steder i byen.", place: "hygge" },
                     { text: "Browsing a cozy shop or bookstore.", place: "hygge" }
                 ]
             },
             {
                 image: "Pictures/Quiz5.jpg",
-                question: "What type of experience are you looking for?",
+                question: "Hvad slags oplevelse søger du?",
                 options: [
-                    { text: "Something peaceful and calming.", place: "domens" },
-                    { text: "Something creative and hands-on.", place: "create" },
-                    { text: "Something aesthetic and memorable.", place: "hygge" },
-                    { text: "Something unique and inspiring.", place: "create" }
+                    { text: "Noget roligt og afslappende.", place: "domens" },
+                    { text: "Noget kreativt og håndværk.", place: "create" },
+                    { text: "Noget estetisk og huskeligt.", place: "hygge" },
+                    { text: "Noget unikt og inspirerende.", place: "create" }
                 ]
             }
         ];
@@ -56,17 +56,17 @@
         const places = {
             domens: {
                 name: "Domen's Coffee",
-                description: "A cozy coffee shop perfect for relaxation, warm drinks, and quiet conversations. The ideal spot for peaceful moments and creative inspiration.",
+                description: "En hyggelig kaffebar, perfekt til afslapning, varme drikke og stille samtaler. Det ideelle sted for fredfyldte øjeblikke og kreativ inspiration.",
                 image: "Pictures/Domen Home.jpg"
             },
             create: {
                 name: "Create Aarhus",
-                description: "A creative workshop space where you can make candles, paint ceramics, and explore your artistic side. Perfect for hands-on experiences and crafting memories.",
-                image: "Pictures/Create Aarhus Home.jpg"
+                    description: "Et kreativt værksted, hvor du kan lave lys, male keramik og udforske din kunstneriske side. Perfekt til praktiske oplevelser og skabelse af minder.",
+                    image: "Pictures/Create Aarhus Home.jpg"
             },
             hygge: {
                 name: "Creating Moments",
-                description: "Because you enjoy creating things, we recommend Creating Memories for its cozy workshops in knitting, macramé, and other hands-on crafts.",
+                description: "Fordi du nyder at være kreativ, anbefaler vi Creating Memories for deres hyggelige workshops i strikning, makramé og andet praktisk håndværk.",
                 image: "Pictures/Creating Moments Home.jpg"
             }
         };

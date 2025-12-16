@@ -25,6 +25,10 @@ header {
     z-index: 100;
 }
 
+.globe-btn{
+    text-decoration: none; /* Removes underline */
+}
+
 .back-btn,
 .globe-btn,
 .menu-btn {

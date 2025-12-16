@@ -14,6 +14,10 @@ header {
     padding: 10px;
 }
 
+.globe-btn{
+    text-decoration: none; /* Removes underline */
+}
+
 .back-btn,
 .globe-btn,
 .menu-btn {
@@ -396,6 +400,8 @@ footer {
 .menu-backdrop.active {
     display: block;
 }
+
+
 
 @media (max-width: 900px) {
 
