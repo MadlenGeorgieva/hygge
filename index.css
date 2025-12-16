@@ -5,6 +5,9 @@ body{
     /* font-family: "Madimi One", sans-serif; */
     background-color: #311C0F;
 }
+.globe-btn{
+    text-decoration: none; /* Removes underline */
+}
 
 /* Header Section */
 header {

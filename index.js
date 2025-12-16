@@ -2,17 +2,20 @@ const galleryData = [
     {
         img: "Pictures/Create Aarhus Home.jpg",
         title: "Aarhus",
-        subtitle: "Create"
+        subtitle: "Create",
+        link: "CreateAarhus.html"  // Add link
     },
     {
         img: "Pictures/Domen Home.jpg",
         title: "Domen's Coffee",
-        subtitle: ""
+        subtitle: "",
+        link: "Domen's.html"  // Add link
     },
     {
         img: "Pictures/Creating Moments Home.jpg",
         title: "Moments",
-        subtitle: "Creating"
+        subtitle: "Creating",
+        link: "CreatingMemories.html"  // Add link
     }
 ];
 
@@ -25,6 +28,11 @@ const rightImg = document.querySelector(".image-right img");
 const leftText = document.querySelector(".image-left h3");
 const centerText = document.querySelector(".image-central h3");
 const rightText = document.querySelector(".image-right h3");
+
+// Add link elements
+const leftLink = document.querySelector(".image-left");
+const centerLink = document.querySelector(".image-central");
+const rightLink = document.querySelector(".image-right");
 
 const leftBtn = document.querySelector(".arrow-left");
 const rightBtn = document.querySelector(".arrow-right");
@@ -40,6 +48,11 @@ function updateGallery() {
     leftText.textContent = galleryData[leftIndex].title;
     centerText.textContent = galleryData[currentIndex].title;
     rightText.textContent = galleryData[rightIndex].title;
+
+    // Update links
+    leftLink.href = galleryData[leftIndex].link;
+    centerLink.href = galleryData[currentIndex].link;
+    rightLink.href = galleryData[rightIndex].link;
 }
 
 updateGallery();
@@ -54,8 +67,16 @@ leftBtn.addEventListener("click", () => {
     updateGallery();
 });
 
-
-
+function toggleMenu() {
+    const menuOverlay = document.getElementById('menuOverlay');
+    const backdrop = document.getElementById('menuBackdrop');
+    
+    menuOverlay.classList.toggle('active');
+    
+    if (backdrop) {
+        backdrop.classList.toggle('active');
+    }
+}
 
 
 
