@@ -9,44 +9,54 @@ body{
 
 /* Header Section */
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #311C0F;
-    z-index: 100;
-}
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            padding: 10px 20px; /* SAME padding everywhere */
+            background-color: #311C0F;
+            z-index: 100;
+        }
 
-.globe-btn{
-    text-decoration: none; /* Removes underline */
-}
+        .nav-left {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+        }
 
-.back-btn,
-.globe-btn,
-.menu-btn {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
+        .nav-right {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
 
-.back-btn img,
-.globe-btn img,
-.menu-btn img {
-    width: 40px;
-    height: 40px;
-}
+        .globe-btn {
+            text-decoration: none;
+        }
 
-.logo{
-    margin-left: 65px;
-    width: 300px;
-    height: auto;
-    background: none;
-    border: none;
-}
+        .back-btn,
+        .globe-btn,
+        .menu-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .back-btn img,
+        .globe-btn img,
+        .menu-btn img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .logo {
+            width: 300px;
+            height: auto;
+            margin: 0;
+        }
 
 /* Hamburger Menu Overlay */
 .menu-overlay {
