@@ -1,8 +1,8 @@
 const galleryData = [
     {
         img: "Pictures/Create Aarhus Home.jpg",
-        title: "Aarhus",
-        subtitle: "Create",
+        title: "Create Aarhus",
+        subtitle: "",
         link: "CreateAarhus.html"  // Add link
     },
     {
@@ -13,8 +13,8 @@ const galleryData = [
     },
     {
         img: "Pictures/Creating Moments Home.jpg",
-        title: "Moments",
-        subtitle: "Creating",
+        title: "Creating Moments",
+        subtitle: "",
         link: "CreatingMemories.html"  // Add link
     }
 ];
