@@ -57,17 +57,20 @@
             domens: {
                 name: "Domen's Coffee",
                 description: "A cozy coffee shop perfect for relaxation, warm drinks, and quiet conversations. The ideal spot for peaceful moments and creative inspiration.",
-                image: "Pictures/Domen Home.jpg"
+                image: "Pictures/Domen Home.jpg",
+                link: "Domen's.html"
             },
             create: {
                 name: "Create Aarhus",
                 description: "A creative workshop space where you can make candles, paint ceramics, and explore your artistic side. Perfect for hands-on experiences and crafting memories.",
-                image: "Pictures/Create Aarhus Home.jpg"
+                image: "Pictures/Create Aarhus Home.jpg",
+                link: "CreateAarhus.html"
             },
             hygge: {
                 name: "Creating Moments",
                 description: "Because you enjoy creating things, we recommend Creating Memories for its cozy workshops in knitting, macramé, and other hands-on crafts.",
-                image: "Pictures/Creating Moments Home.jpg"
+                image: "Pictures/Creating Moments Home.jpg",
+                link: "CreatingMemories.html"
             }
         };
 
@@ -146,7 +149,18 @@
             
             document.getElementById('questionCard').classList.add('hidden');
             document.getElementById('resultCard').classList.remove('hidden');
-            document.getElementById('resultImage').src = place.image;
+            
+            // Create image with link
+            const resultImageContainer = document.getElementById('resultImage').parentElement;
+            const imageElement = document.getElementById('resultImage');
+            
+            // Wrap image in link
+            imageElement.src = place.image;
+            imageElement.style.cursor = 'pointer';
+            imageElement.onclick = function() {
+                window.location.href = place.link;
+            };
+            
             document.getElementById('resultPlace').textContent = place.name;
             document.getElementById('resultDescription').textContent = place.description;
             document.querySelector('.progress').classList.add('hidden');
