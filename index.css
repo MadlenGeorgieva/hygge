@@ -11,10 +11,28 @@ body{
 
 /* Header Section */
 header {
-    display: flex;
-    justify-content: space-between;
+    position: fixed; /* Add if you want it to stay at top while scrolling */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
+    background-color: #311C0F; /* Add background if fixed */
+    z-index: 100;
+}
+
+.nav-left {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
 }
 
 .globe-btn{
@@ -36,12 +54,10 @@ header {
     height: 40px;
 }
 
-.logo{
-    margin-left: 600px;
+.logo {
     width: 300px;
     height: auto;
-    background: none;
-    border: none;
+    margin: 0; /* Remove left margin */
 }
 
 /* Learn More Section */
