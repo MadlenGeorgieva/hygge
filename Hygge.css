@@ -288,13 +288,17 @@ footer {
         padding: 40px 70px;
         gap: 60px;
     }
+    
+    .logo{
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
 
     body {
         font-size: 18px;
-        padding-top: 80px;
+        padding-top: 50px;
     }
 
     /* Header */
@@ -399,5 +403,9 @@ footer {
     .footer-column p {
         font-size: 12px;
         line-height: 1.3;
+    }
+    
+    .logo{
+        display: none;
     }
 }
