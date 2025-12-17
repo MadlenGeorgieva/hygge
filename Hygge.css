@@ -372,7 +372,13 @@ footer {
         padding: 50px 22px;
     }
 
-    .description-section p,
+    .description-section p{
+        font-size: 18px;  /* Same size */
+        line-height: 1.5;  /* Same line height */
+        font-weight: 300;  /* Same weight */
+        margin: 0;
+    }
+
     .quote-section p {
         font-size: 18px;
         line-height: 1.6;

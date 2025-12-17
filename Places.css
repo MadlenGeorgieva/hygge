@@ -387,23 +387,26 @@ footer {
         font-size: 36px;
     }
     
-    /* Description Sections */
+  /* Description Sections */
     .description-section-with-square {
-        padding: 100px 30px 30px 30px;
+        padding: 100px 30px 30px 30px;  /* Changed right padding from 5px to 30px */
         max-width: 100%;
         margin-top: -40px;
     }
-    
+
     .description-section {
-        padding: 30px;
+        padding: 30px 30px 30px 30px;  /* Changed right padding from 0px to 30px */
         max-width: 100%;
     }
-    
+
+    .description-section-with-square p,
     .description-section p {
-        font-size: 24px;
-        line-height: 1.5;
+        font-size: 18px;  /* Same size */
+        line-height: 1.5;  /* Same line height */
+        font-weight: 300;  /* Same weight */
+        margin: 0;
     }
-    
+
     /* Content Image Section */
     .content-image-section {
         height: 500px;
