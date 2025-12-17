@@ -168,11 +168,6 @@
         // Start quiz on load
         initQuiz();
 
-
-
-
-
-
         function toggleMenu() {
     const menuOverlay = document.getElementById('menuOverlay');
     const backdrop = document.getElementById('menuBackdrop');

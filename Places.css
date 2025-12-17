@@ -175,11 +175,12 @@ header {
     text-align: left;
 }
 
+.description-section-with-square p,
 .description-section p {
     color: #E8D4B8;
-    /* font-size: 30px; */
     line-height: 1.6;
-    margin: 0;
+    margin: 0 80px 0 0;  /* Remove the right margin (was: margin: 0 200px 0 0;) */
+    margin-left: -70px;  /* Or use a negative value like -50px to move further left */
     font-weight: 300;
     max-width: 1200px;
 }
@@ -205,7 +206,7 @@ header {
     max-width: 800px;  /* Add this */
     margin: 0 auto;  /* Add this to center */
     background-color: #311C0F;
-    padding: 50px 320px 50px 400px;  /* Large left padding, smaller right */
+    padding: 50px 270px 50px 420px;  /* Large left padding, smaller right */
     text-align: right;
 }
 

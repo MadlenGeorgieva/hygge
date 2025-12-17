@@ -187,7 +187,7 @@
 
 
 
-        function toggleMenu() {
+    function toggleMenu() {
     const menuOverlay = document.getElementById('menuOverlay');
     const backdrop = document.getElementById('menuBackdrop');
     
