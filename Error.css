@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    background-image: url('Pictures/404.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Content Container */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+.error-code {
+    font-size: clamp(4rem, 15vw, 8rem);
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: 1rem;
+    animation: fadeInDown 0.6s ease-out;
+}
+
+.error-code::before {
+    content: "404";
+}
+
+.quote {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: white;
+    font-style: italic;
+    max-width: 600px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    animation: fadeIn 0.8s ease-out 0.3s both;
+}
+
+.home-button {
+    background-color: #C97D25;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    backdrop-filter: blur(10px);
+    border: 2px solid #C97D25;
+    transition: all 0.3s;
+    animation: fadeIn 1s ease-out 0.6s both;
+    display: inline-block;
+}
+
+.home-button:hover {
+    background-color: #C97D25;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.home-button:active {
+    transform: translateY(0);
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
